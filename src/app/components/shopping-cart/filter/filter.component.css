@@ -1,0 +1,17 @@
+.btn{
+  margin-top: 1rem;
+  background-color: dodgerblue;
+}
+
+.filters{
+  margin-top: 3rem;
+  font-size: small;
+  border-radius: 0;
+  margin-left:0.5rem;
+}
+.form-control{
+  border-radius: 0;
+}
+.btn{
+  border-radius: 0;
+}

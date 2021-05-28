@@ -1,0 +1,13 @@
+.list-group{
+  margin-top: 3rem;
+  border-radius: 0;
+  border-top: 2px solid dodgerblue;
+}
+
+.list-group-item{
+  background-color:#e4eff5;
+}
+.active{
+  background-color: dodgerblue;
+}
+

@@ -1,0 +1,13 @@
+.wrapper{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.wrap{
+  margin-top: 13rem;
+  padding-left: 10rem;
+
+}
+img{
+  padding-left: 3em;
+}

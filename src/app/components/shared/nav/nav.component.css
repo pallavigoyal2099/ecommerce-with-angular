@@ -1,0 +1,28 @@
+.navbar{
+  /* border-style: outset; */
+  box-shadow: 2px 2px 2px #888888;
+}
+.collapse{
+  display: flex;
+  justify-content: space-between;
+}
+app-header{
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+.nav-link{
+color: black;
+
+}
+.nav-item
+{
+  color: black;
+  padding: 0rem 1rem;
+}
+.nav-item:hover
+{
+border-bottom: 2px solid dodgerblue;
+transition: 0.3s;
+ color: white;
+}
+

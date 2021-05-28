@@ -1,0 +1,12 @@
+.router{
+  padding-top: 3.7rem;
+}
+
+
+app-nav{
+  position: fixed;
+  z-index: 100;
+  top:0;
+  width: 100%;
+}
+

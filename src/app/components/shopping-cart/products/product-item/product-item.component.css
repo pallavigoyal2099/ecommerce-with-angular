@@ -1,0 +1,8 @@
+.product{
+  font-size: smaller;
+}
+.card-img-top{
+  height:13rem;
+  width: 16.4rem;
+  border-bottom: 3px solid dodgerblue;
+}
