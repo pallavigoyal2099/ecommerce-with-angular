@@ -1,0 +1,64 @@
+{
+  "products":[
+    {
+      "id":1,
+      "name":"Panda Family",
+      "description":"Very cute and soft",
+      "imageUrl":"https://sc04.alicdn.com/kf/HTB1xNOld75E3KVjSZFCq6zuzXXaR.jpg",
+      "price":1000
+    },
+    {
+      "id":2,
+      "name":"Unicorn Toy",
+      "description":"Cute plushie",
+      "imageUrl":"https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/19942/175921/Stuffed-Animal-Baby-Dolls-Kawaii-Cartoon-Rainbow-Unicorn-Plush-toys-Kids-Present-Toys-Children-Baby-Birthday__36295.1592992834.jpg?c=2",
+      "price":800
+    },
+    {
+      "id":3,
+      "name":"Husky Plushie",
+      "description":"Looks real",
+      "imageUrl":"https://www.picclickimg.com/d/l400/pict/352779106641_/Games-Plush-Doll-Soft-Toy-Stuffed-Animal-Cute.jpg",
+      "price":200
+    },
+    {
+      "id":4,
+      "name":"Pikachu Family",
+      "description":"Looks very cut and fluffy",
+      "imageUrl":"https://www.picclickimg.com/d/l400/pict/124148742333_/POKEMON-Pikachu-Happy-Smile-Soft-Toy-Kids.jpg",
+      "price":500
+    },
+    {
+      "id":5,
+      "name":"Teddy Bear",
+      "description":"White color and fluffy",
+      "imageUrl":"https://n2.sdlcdn.com/imgs/h/z/1/Cute-Teddy-Bear-Glow-LED-SDL221988535-2-e1a89.JPEG",
+      "price":700
+    },
+    {
+      "id":6,
+      "name":"Cat Toy",
+      "description":"Cutest cat plush toy",
+      "imageUrl":"https://cf.shopee.co.th/file/f130ff80e5ef7d5a66da6742e5158f35",
+      "price":200
+    }
+  ],
+  "carts":[],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

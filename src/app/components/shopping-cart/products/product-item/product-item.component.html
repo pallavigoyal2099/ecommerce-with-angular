@@ -1,12 +1,27 @@
 <div class="card mb-4 box-shadow">
-  <img class="card-img-top" src="../../../../../assets/shop2.jpg" alt="Card image cap">
+  <img
+    class="card-img-top"
+    src="{{ productItem.imageUrl }}"
+    alt="Card image cap"
+  />
   <div class="card-body">
-    <p class="card-text"><strong><small class="text-muted">{{110 |currency:'INR'}}</small></strong></p>
-    <p class="card-text">Nice Phone</p>
+    <h5>{{ productItem.name }}</h5>
+    <p class="card-text">
+      <strong
+        ><small class="text-muted">{{
+          productItem.price | currency: "INR"
+        }}</small></strong
+      >
+    </p>
+    <p class="card-text">{{ productItem.description | slice:0:20 }}...</p>
     <div class="d-flex justify-content-between align-items-center">
       <div class="btn-group">
-        <button type="button" class="btn btn-sm btn-outline-primary product">Add to Cart</button>
-        <button type="button" class="btn btn-sm btn-outline-secondary product">View Details</button>
+        <button type="button" class="btn btn-sm btn-outline-primary product" (click)="onAddToCart()" >
+          Add to Cart
+        </button>
+        <button type="button" class="btn btn-sm btn-outline-secondary product">
+          View Details
+        </button>
       </div>
     </div>
   </div>

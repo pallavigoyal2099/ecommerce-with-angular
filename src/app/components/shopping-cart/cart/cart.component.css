@@ -10,4 +10,7 @@
 .active{
   background-color: dodgerblue;
 }
-
+.alert{
+  margin-top: 3rem;
+  border-top: 2px solid dodgerblue;
+}
