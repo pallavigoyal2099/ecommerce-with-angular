@@ -27,7 +27,7 @@ handleSubscription(){
 }
 loadCartItems(){
 this.cartService.getCartItems().subscribe((items:Cart[])=>{
-  console.log(items);
+  // console.log(items);
   this.cartItems=items;
   this.calculateCartTotal();
 })

@@ -73,6 +73,41 @@
         "price": 200
       },
       "id": 3
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Husky Plushie",
+        "description": "Looks real",
+        "imageUrl": "https://www.picclickimg.com/d/l400/pict/352779106641_/Games-Plush-Doll-Soft-Toy-Stuffed-Animal-Cute.jpg",
+        "price": 200
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "Cat Toy",
+        "description": "Cutest cat plush toy",
+        "imageUrl": "https://cf.shopee.co.th/file/f130ff80e5ef7d5a66da6742e5158f35",
+        "price": 200
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Unicorn Toy",
+        "description": "Cute plushie",
+        "imageUrl": "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/19942/175921/Stuffed-Animal-Baby-Dolls-Kawaii-Cartoon-Rainbow-Unicorn-Plush-toys-Kids-Present-Toys-Children-Baby-Birthday__36295.1592992834.jpg?c=2",
+        "price": 800
+      },
+      "id": 6
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1
     }
   ],
   "posts": [

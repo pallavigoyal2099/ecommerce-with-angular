@@ -6,3 +6,8 @@
   width: 16.4rem;
   border-bottom: 3px solid dodgerblue;
 }
+
+.fa-heart{
+  color: palevioletred;
+  cursor: pointer;
+}

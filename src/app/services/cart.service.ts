@@ -34,6 +34,6 @@ return cartItems;
    );
   }
   addProductToCart(product:Product):Observable<any>{
-    return this.http.post("http://localhost:3000/carts",{product});
+    return this.http.post(cartUrl,{product});
   }
 }
